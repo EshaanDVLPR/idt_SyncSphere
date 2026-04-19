@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SyncSphere | Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="lolgin-body">
+    <main class="login-layout">
+      <section class="login-hero">
+        <p class="pill">Prototype</p>
+        <h1>SyncSphere</h1>
+        <p>
+          A student social prototype for making friends, building hobbies, and practicing conversation through quests and events.
+        </p>
+        <div class="hero-grid">
+          <article>
+            <h3>Find Friends</h3>
+            <p>Match with students by interests, goals, and comfort level.</p>
+          </article>
+          <article>
+            <h3>SyncQuests</h3>
+            <p>Complete daily and weekly social quests to build confidence.</p>
+          </article>
+          <article>
+            <h3>Events</h3>
+            <p>Discover speaking circles, debate rooms, and open mics.</p>
+          </article>
+          <article>
+            <h3>Direct Messages</h3>
+            <p>Start low-pressure conversations with guided prompts.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="login-panel">
+        <h2>Welcome back</h2>
+        <p>Sign in to continue your social growth journey.</p>
+        <form class="card-form" data-login-form>
+          <label>
+            Student email
+            <input type="email" name="email" placeholder="you@college.edu" required />
+          </label>
+          <label>
+            Display name
+            <input type="text" name="name" placeholder="Aarav" required />
+          </label>
+          <label>
+            Password
+            <input type="password" name="password" placeholder="••••••••" required />
+          </label>
+          <button class="btn btn-primary" type="submit">Enter SyncSphere</button>
+        </form>
+        <small>This is a frontend-only prototype. Credentials are not validated.</small>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

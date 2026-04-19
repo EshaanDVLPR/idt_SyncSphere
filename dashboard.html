@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SyncSphere | Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="app-body">
+    <main class="app-shell">
+      <header class="app-top">
+        <div class="brand">
+          <div class="brand-mark"></div>
+          <div>
+            <h2>SyncSphere</h2>
+            <span data-page-title>Home</span>
+          </div>
+        </div>
+        <div class="top-actions">
+          <div class="top-pill">Frontend Prototype</div>
+          <button class="btn btn-ghost top-settings" data-nav="settings">Settings</button>
+        </div>
+      </header>
+
+      <section class="content">
+        <div data-page></div>
+      </section>
+
+      <nav class="tabbar">
+        <button class="tab-item active" data-nav="home"><span class="tab-icon"></span>Home</button>
+        <button class="tab-item" data-nav="quests"><span class="tab-icon"></span>Quests</button>
+        <button class="tab-item" data-nav="events"><span class="tab-icon"></span>Events</button>
+        <button class="tab-item" data-nav="synctime"><span class="tab-icon"></span>SyncTime</button>
+        <button class="tab-item" data-nav="dm"><span class="tab-icon"></span>DM</button>
+        <button class="tab-item" data-nav="profile"><span class="tab-icon"></span>Profile</button>
+      </nav>
+
+      <div class="prototype-note">
+        <strong>Prototype note:</strong>
+        <span class="muted">No backend or real authentication yet.</span>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
